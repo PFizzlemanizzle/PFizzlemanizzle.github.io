@@ -8,3 +8,6 @@ h2 { font-size: 1.25rem; margin-top: 2em; }
 a { color: var(--accent); }
 code { font-size: 0.9em; overflow-wrap: anywhere; }
 footer { margin-top: 3em; padding-top: 1em; border-top: 1px solid var(--muted); color: var(--muted); font-size: 0.95rem; }
+.download { display: inline-block; margin-top: 8px; padding: 12px 22px; background: var(--accent); color: var(--paper); border-radius: 6px; text-decoration: none; font-weight: bold; }
+.download:hover { filter: brightness(1.1); }
+.small { color: var(--muted); font-size: 0.9rem; }
